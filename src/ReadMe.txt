@@ -44,16 +44,14 @@ Loop through the array and obtain the sum and average of all the elements and di
 Various exceptions that may arise like ArithmeticException, NumberFormatException, and so on should be handled.
 
 
-Q3.
-Write a Program to take care of Number Format Exception if the user enters values other than integer for calculating the average marks of 2 students.
+Q3. Write a Program to take care of Number Format Exception if the user enters values other than integer for calculating the average marks of 2 students.
 The name of the students and marks in 3 subjects are taken from the user while executing the program.
 In the same Program write your own Exception classes to take care of Negative values
 and values out of range (i.e. other than in the range of 0-100).
 Exception Handling: Throw & User Defined Exception
 
 
-Q4.
-A student portal provides user to register their profile.
+Q4. A student portal provides user to register their profile.
 During registration the system needs to validate the user should be located in India. If not the system should throw an exception.
 
 Step 1: Create a user defined exception class named “InvalidCountryException”.
@@ -74,8 +72,7 @@ i/p:Mini,India
 o/p:User registration done successfully
 
 
-Q5.
-Write a program to accept name and age of a person from the command prompt(passed as arguments when you execute the class)
+Q5. Write a program to accept name and age of a person from the command prompt(passed as arguments when you execute the class)
 and ensure that the age entered is >=18 and < 60.
 Display proper error messages.
 
