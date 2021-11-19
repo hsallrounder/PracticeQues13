@@ -1,7 +1,7 @@
 public class Q2_MathOperation {
     public static void main(String[] args) {
-        Integer[] arr=new Integer[5];
             try {
+                Integer[] arr=new Integer[5];
                 for (int i = 0; i < args.length; i++) {
                     arr[i] = Integer.parseInt(args[i]);
                 }

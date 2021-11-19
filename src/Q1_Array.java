@@ -3,8 +3,7 @@ import java.util.Scanner;
 
 public class Q1_Array {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        try {
+        try(Scanner sc = new Scanner(System.in)) {
             System.out.println("Enter the number of elements in the array");
             String n = sc.next();
             Integer[] arr = new Integer[Integer.parseInt(n)];

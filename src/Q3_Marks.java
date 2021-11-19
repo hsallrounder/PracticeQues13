@@ -30,5 +30,6 @@ public class Q3_Marks {
             System.out.println("Average marks of student " + name + " = " + sum / arr.length);
             System.out.println();
         }
+        sc.close();
     }
 }
